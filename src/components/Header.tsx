@@ -20,6 +20,7 @@ const Header = () => {
       <button
         className="w-[398px] h-10 bg-[#deefff] rounded-md flex items-center justify-center hover:bg-[#cde7ff] transition-colors duration-200"
         onClick={handleButtonClick}
+        aria-label="Request free analysis"
       >
         <span className="text-sm font-bold tracking-wide text-center text-[#2f6ba2]">
           JETZT KOSTENFREIE ANALYSE ANFORDERN
