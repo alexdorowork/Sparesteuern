@@ -8,7 +8,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex justify-between items-center w-full h-12 bg-white">
+    <div className="flex justify-between items-center w-full h-12 bg-white shadow-md">
       <div className="flex items-center h-full">
         <div className="flex items-center w-6 h-full">
           <FontAwesomeIcon icon={faChartLine} className="text-[#0b2339]" />
@@ -18,7 +18,7 @@ const Header = () => {
         </span>
       </div>
       <button
-        className="w-[398px] h-full bg-[#deefff] rounded-md flex items-center justify-center"
+        className="w-[398px] h-10 bg-[#deefff] rounded-md flex items-center justify-center hover:bg-[#cde7ff] transition-colors duration-200"
         onClick={handleButtonClick}
       >
         <span className="text-sm font-bold tracking-wide text-center text-[#2f6ba2]">
