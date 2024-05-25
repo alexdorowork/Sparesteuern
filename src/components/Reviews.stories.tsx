@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import Reviews from "~/components/Reviews";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const meta = {
   title: "Components/Reviews",
