@@ -18,12 +18,12 @@ const Header = () => {
         </div>
       </div>
       <div className="flex items-center w-1/3 h-12 bg-[#deefff] rounded-md">
-        <div
-          className="mx-auto text-sm font-bold tracking-wider text-center text-[#2f6ba2] cursor-pointer"
+        <button
+          className="mx-auto text-sm font-bold tracking-wider text-center text-[#2f6ba2] cursor-pointer bg-transparent border-none"
           onClick={handleButtonClick}
         >
           JETZT KOSTENFREIE ANALYSE ANFORDERN
-        </div>
+        </button>
       </div>
     </div>
   );
